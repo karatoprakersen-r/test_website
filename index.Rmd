@@ -1,0 +1,31 @@
+---
+title: "My Website"
+description: |
+  Welcome to my personal website.
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# https://www.andreashandel.com/posts/2021-03-21-simple-distill-website/#the-file-index.rmd
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+# Learn more about publishing to GitHub Pages at:
+# https://rstudio.github.io/distill/publish_website.html#github-pages
+
+```
+
+
+<!-- you can type `rmarkdown::render_site() into the R console. or rmarkdown::render_site(encoding = 'UTF-8')-->
+
+<!-- The file index.Rmd -->
+<!-- This is the main landing page of your website. It always needs to be there and you fill it with the content you want on your main page.  -->
+
+<!-- The file _site.yml -->
+<!-- This short file (called a YAML file) contains the main settings for your site that control the overall look. It also defines the structure, i.e. the menu bar at the top of your site. We’ll edit this file shortly. -->
+
+<!-- The public folder -->
+<!-- updated when you build the website. It contains the html files that are created from your Rmd files. Those files will be used by Github to display your website  -->

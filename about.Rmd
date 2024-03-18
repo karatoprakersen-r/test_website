@@ -1,0 +1,11 @@
+---
+title: "About this site"
+description: |
+  Some additional details about the website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+We can add a photo describing the project as in described here: https://rstudio.github.io/distill/figures.html 
